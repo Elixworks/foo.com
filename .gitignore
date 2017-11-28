@@ -1,0 +1,21 @@
+# .DS_Store
+.DS_Store
+
+# Realize for HotReload
+.realize/
+
+# 設定ファイル
+./models/config.go
+
+# ローカルと本番で変化するアップロード画像
+./_static/upload/**/*.jpeg
+./_static/upload/**/*.jpg
+./_static/upload/**/*.gif
+./_static/upload/**/*.png
+./_static/upload/**/*.icon
+./_static/upload/**/*.ico
+./_static/upload/**/*.svg
+
+
+# 一時的
+./models/cast.go
